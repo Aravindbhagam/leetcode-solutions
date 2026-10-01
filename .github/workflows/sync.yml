@@ -2,7 +2,7 @@ name: Sync LeetCode
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # daily, 18:00 UTC
+   - cron: "*/10 * * * *"   # every 10 minutes   
   workflow_dispatch:        # lets you run it manually
 
 permissions:
